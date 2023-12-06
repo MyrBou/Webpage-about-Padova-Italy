@@ -1,0 +1,258 @@
+.header{
+    width:100%;
+    height:70px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: pink;
+}
+
+.header img{
+    position:fixed;
+    width: 70px;
+    height:70px;
+    text-align:left;
+}
+
+.navbar{
+    margin:30px auto;
+    display: inline;
+    height:70px;
+
+}
+
+ul{
+    text-align: right;
+    padding-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+    list-style:none;
+    margin:0 25px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Montserrat';
+    padding: 0 20px;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+
+
+body{
+    margin: 0;
+    margin-top: 70px;
+    font-family:'Montserrat';
+}
+
+
+section{
+    height: 110vh;
+    border: 1px solid black;
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.welcome{
+    display:flex;
+    margin-top:80px;
+    text-align:center;
+}
+
+h1{
+    color: black;
+    font-family:'Montserrat';
+    font-size: 280%;  
+}
+
+h2{
+    color: black;
+    font-family:'Montserrat';
+    font-size: 160%;
+}
+
+h3{
+    color: black;
+    font-family:'Montserrat';
+    font-size: 40px;
+}
+
+ol li{
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+
+.left-column img{
+    width:400px;
+    height:400px;
+    margin-left:80px;
+    border-radius: 200px;
+}
+
+.first-page{
+    display:flex;
+    margin-top:80px;
+}
+
+.right-column{
+    display:inline;
+    margin-right:10px;
+}
+
+.right-column ul{
+    text-align:left;
+    font-size:15px;
+    font-family:'Montserrat';
+}
+
+.Third-page{
+    font-size:15px;
+    font-family:'Montserrat';
+    margin-left:20px;
+}
+
+.Third-page li{
+    list-style-type: disc;
+    font-size:15px;
+}
+
+
+#Intro{
+    background-image: linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.35)), url("https://hotelheron.it/sites/default/files/padova-in-un-giorno.jpg");
+}
+
+#About{
+    background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url('https://s3.ap-southeast-1.amazonaws.com/gounesco.com/wp-content/uploads/2014/05/12194201/rocaille-caffe%CC%81-pedrocchi-padova.jpg');
+}
+
+#Bucket{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: linear-gradient(rgba(255,255,255,0.35),rgba(255,255,255,0.35)), url("https://drive.google.com/uc?export=view&id=1zK_jrVBk6omXI9tjFQZPLv0MV1z9qQaB");
+}
+
+#Cities{
+    background-image: linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), url('https://media.istockphoto.com/photos/padua-university-popular-touristic-european-destination-padua-city-picture-id1254055739?k=20&m=1254055739&s=612x612&w=0&h=FwDIO0I7UWvBv4h8LdX_j02SVrTstg18mOkVPlAcxpk=');
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Bologna,.Venice,.Verona{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.Bologna img,.Venice img,.Verona img{
+    display: inline-block;
+    border-radius: 150px;
+    border:3px solid pink;
+    width: 300px;
+    height: 300px;
+}
+
+.Overlay{
+    position: absolute;
+    top: 3;
+    bottom: 0;
+    left: 63px;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: pink;
+    border-radius: 150px;
+}
+
+.BText,.VText,.VeText{
+    font-family: "playfair display";
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Bologna:hover .Overlay{
+    opacity:0.85;
+}
+
+
+.Venice:hover .Overlay{ 
+    opacity:0.85;
+}
+
+
+.Verona:hover .Overlay{
+    opacity:0.85;
+}
+
+footer{
+    background:pink;
+    background-attachment:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:right;
+    padding:5px;
+    font-family:'Montserrat';
+}
+
+.header1{
+    width:100%;
+    height:70px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    text-align: left;
+    background-color:pink;
+}
+
+#Diary{
+    height:150vh;
+    width:100%;
+    border:0px;
+    padding-bottom:30px;
+}
+
+.Title{
+    text-align: center;
+    font-family:'Montserrat';
+}
+
+.Text{
+    text-align:left;
+    font-family: 'Montserrat';
+    padding-right:20px;
+}
+
+.Text ol li{
+    text-align:left;
+    font-size:15px;
+    font-family:'Montserrat';
+    padding-left:20px;
+    list-style: circle;
+}
+
